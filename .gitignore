@@ -1,0 +1,24 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+venv/
+ENV/
+
+# --- AWS SAM (Serverless Application Model) ---
+.aws-sam/
+
+# --- Secrets & Config ---
+# GeminiやOpenAIのキーをローカルでテストする際に使うファイル
+.env
+secrets.json
+api_keys.py
+
+# --- macOS ---
+.DS_Store
+
+# --- IDE (VS Code / PyCharm) ---
+.vscode/
+.idea/
